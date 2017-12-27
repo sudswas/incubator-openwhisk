@@ -261,13 +261,6 @@ cli_os_arch:
   - [ "windows", "amd64" ]
   - [ "windows", "386" ]
 
-# The 'cli_os' variable remains to support generating content.json, though it
-# could eventually be displaced by some jenja2 filter fu on cli_os_arch (above)
-cli_os:
-  - linux
-  - mac
-  - windows
-
 # Controls access to log directories
 logs:
   dir:
